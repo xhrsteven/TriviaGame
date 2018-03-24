@@ -1,0 +1,23 @@
+body{
+    font-family: 'Ubuntu',sans-serif;
+    text-align: center;
+    height: auto;
+}
+#quiz{
+    /* background: salmon; */
+    margin: 0 15% auto 15%;
+    visibility: hidden;
+}
+h1{
+    font-size: 400%;
+    color: rgb(32, 30, 120);
+}
+#button{
+    font-size:200%;
+    color: rebeccapurple;
+    width: 200px;
+    height: 100px;
+}
+#after_submit{
+    visibility: hidden;
+}
