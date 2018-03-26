@@ -1,10 +1,11 @@
 body{
+    background: url(../images/light-veneer.png);
     font-family: 'Ubuntu',sans-serif;
     text-align: center;
-    height: auto;
+    height: 100%;
 }
-#quiz{
-    /* background: salmon; */
+#quizForm{
+    background: navajowhite;
     margin: 0 15% auto 15%;
     visibility: hidden;
 }
@@ -12,12 +13,20 @@ h1{
     font-size: 400%;
     color: rgb(32, 30, 120);
 }
-#button{
-    font-size:200%;
+button{
+    font-size: 50px;
+    margin-top: 30px;
+    padding-top: 20px;
     color: rebeccapurple;
     width: 200px;
     height: 100px;
+    border-radius: 8px;
 }
-#after_submit{
+button:hover{
+    background-color: rgb(238, 58, 58);
+    color: white;
+    box-shadow: 0 12px 12px 0 rgb(19, 24, 19); 
+}
+/* #after_submit{
     visibility: hidden;
-}
+} */
