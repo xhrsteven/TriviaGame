@@ -27,6 +27,9 @@ button:hover{
     color: white;
     box-shadow: 0 12px 12px 0 rgb(19, 24, 19); 
 }
+#restart{
+	display: none;
+}
 /* #after_submit{
     visibility: hidden;
 } */

@@ -18,71 +18,78 @@
             <h1>Totally Trivia Trivia!!!</h1>
             <div id="quiz" class="col-lg-12">
                 <div id="game-start">
-                    <button id="game-start" type="button">Start</button>
+                    <button id="start-button" type="button">Start</button>
                 </div>
                 <div id="quizForm">
-                    <form name="quiz">
-                        <h2>Time Remaining: <span id="number"></span>Seconds </h2>
+                    <div id="number"></div>
                         <h3>What was the first full length CGI movie?</h3>
-                        <input type="radio" name="movie" id="wrong" value="A Bug's life" checked>A Bug's life
-                        <input type="radio" name="movie" id="wrong" value="Monsters Inc.">Monsters Inc.
-                        <input type="radio" name="movie" id="true" value="Toy Story">Toy Story
-                        <input type="radio" name="movie" id="wrong" value="The Lion King">The Lion King
-                    
+                        <form id="movie">
+                        <input type="radio" name="movie" value="A Bug's life" >A Bug's life
+                        <input type="radio" name="movie" value="Monsters Inc." checked>Monsters Inc.
+                        <input type="radio" name="movie" value="Toy Story">Toy Story
+                        <input type="radio" name="movie" value="The Lion King">The Lion King
+                        </form>
                         <h3>Which of these is NOT a name of one of the Spice Girls?</h3>
-                    
-                        <input type="radio" name="girl" id="wrong" value="Sporty Spice" checked>Sporty Spice
-                        <input type="radio" name="girl" id="true" value="Fried Spice">Fried Spice
-                        <input type="radio" name="girl" id="wrong" value="Scary Spice">Scary Spice
-                        <input type="radio" name="girl" id="wrong" value="Posh Spice">Posh Spice
-                    
+                        <form id="girl">
+                        <input type="radio" name="girl"  value="Sporty Spice">Sporty Spice
+                        <input type="radio" name="girl" value="Fried Spice">Fried Spice
+                        <input type="radio" name="girl"  value="Scary Spice" checked>Scary Spice
+                        <input type="radio" name="girl"  value="Posh Spice">Posh Spice
+                        </form>
                         <h3>Which NBA team won the most titles in the 90s?</h3>
-                    
-                        <input type="radio" name="team" id="wrong" value="New York Knicks" checked>New York Knicks
-                        <input type="radio" name="team" id="wrong" value="Portland Trailblazers">Portland Trailblazers
-                        <input type="radio" name="team" id="wrong" value="Los Angeles Lakers">Los Angeles Lakers
-                        <input type="radio" name="team" id="true" value="Chicago Bulls">Chicago Bulls
-                    
+                        <form id="team">
+                        <input type="radio" name="team"  value="New York Knicks" checked>New York Knicks
+                        <input type="radio" name="team"  value="Portland Trailblazers">Portland Trailblazers
+                        <input type="radio" name="team"  value="Los Angeles Lakers">Los Angeles Lakers
+                        <input type="radio" name="team" value="Chicago Bulls">Chicago Bulls
+                        </form>
                         <h3>Which group release the hit song, "Smell Like Teen Spirit"?</h3>
-                    
-                        <input type="radio" name="song" id="true" value="Nirvana" checked>Nirvana
-                        <input type="radio" name="song" id="wrong" value="Backstreet Boys">Backstreet Boys
-                        <input type="radio" name="song" id="wrong" value="The Offspring">The Offspring
-                        <input type="radio" name="song" id="wrong" value="No Doubt">No Doubt
-                    
+                        <form id="song">
+                        <input type="radio" name="song" value="Nirvana">Nirvana
+                        <input type="radio" name="song"  value="Backstreet Boys" checked>Backstreet Boys
+                        <input type="radio" name="song"  value="The Offspring">The Offspring
+                        <input type="radio" name="song"  value="No Doubt">No Doubt
+                        </form>
                         <h3>Which Popular Disney movie featured the song, "Circle of Life"</h3>
-                    
-                        <input type="radio" name="songMovie" id="wrong" value="Aladdin" checked>Aladdin
-                        <input type="radio" name="songMovie" id="wrong" value="Hercules">Hercules
-                        <input type="radio" name="songMovie" id="wrong" value="Mulan">Mulan
-                        <input type="radio" name="songMovie" id="true" value="The Lion King">The Lion King
-                    
+                        <form id="songMovie"> 
+                        <input type="radio" name="songMovie" value="Aladdin">Aladdin
+                        <input type="radio" name="songMovie" value="Hercules">Hercules
+                        <input type="radio" name="songMovie" value="Mulan" checked>Mulan
+                        <input type="radio" name="songMovie"value="The Lion King">The Lion King
+                            </form>
                         <h3>Finish this line from the Fresh Prince of Bel-Air theme song:"I whistled for a cab and when it came near, the license
                             plate said..."</h3>
-                    
-                        <input type="radio" name="cab" id="wrong" value="Dice" checked>Dice
-                        <input type="radio" name="cab" id="wrong" value="Mirror">Mirror
-                        <input type="radio" name="cab" id="true" value="Fresh">Fresh
-                        <input type="radio" name="cab" id="wrong" value="Cab">Cab
-                    
+                        <form id="cab">   
+                        <input type="radio" name="cab"  value="Dice">Dice
+                        <input type="radio" name="cab"  value="Mirror">Mirror
+                        <input type="radio" name="cab" value="Fresh">Fresh
+                        <input type="radio" name="cab"  value="Cab" checked>Cab
+                        </form>
                         <h3>What was Doug's best friend's name?</h3>
-                        <input type="radio" name="friend" id="true" value="Skeeter" checked>Skeeter
-                        <input type="radio" name="friend" id="wrong" value="Mark">Mark
-                        <input type="radio" name="friend" id="wrong" value="Zach">Zach
-                        <input type="radio" name="friend" id="wrong" value="Cody">Cody
-                    
+                        <form id="friend">
+                        <input type="radio" name="friend" value="Skeeter">Skeeter
+                        <input type="radio" name="friend"  value="Mark">Mark
+                        <input type="radio" name="friend"  value="Zach">Zach
+                        <input type="radio" name="friend"  value="Cody" checked>Cody
+                            </form>
                         <h3>What was the name of the principal at Bayside High in Saved By The Bell?</h3>
-                    
-                        <input type="radio" name="principal" id="wrong" value="Mr.Zhou" checked>Mr.Zhou
-                        <input type="radio" name="principal" id="wrong" value="Mr.Drigglers">Mr.Drigglers
-                        <input type="radio" name="principal" id="true" value="Mr.Belding">Mr.Belding
-                        <input type="radio" name="principal" id="wrong" value="Mr.Page">Mr.Page
-                    </form>
+                            <form id="principal">
+                        <input type="radio" name="principal" value="Mr.Zhou">Mr.Zhou
+                        <input type="radio" name="principal" value="Mr.Drigglers" checked >Mr.Drigglers
+                        <input type="radio" name="principal" value="Mr.Belding">Mr.Belding
+                        <input type="radio" name="principal" value="Mr.Page">Mr.Page
+                        </form>
                     <button id="submit" type="button">Done</button>
+                    <div id="restart">
+                        <button onclick="restart()">Restart</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="fixed-bottom">
+        @copyright Steven Xu 2018
+    </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/javascript/app.js"></script>
 </body>
